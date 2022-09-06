@@ -1,45 +1,36 @@
-**!! Atenção: Renomeie o seu repositório para (Tema)_(NomeDoProjeto). !!** 
+# PD_Code_Exercises
 
-Temas:
- - Grafos1
- - Grafos2
- - PD
- - D&C
- - Greed
- - Final 
- 
- **!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: Grafos2_Labirinto-do-Minotauro !!**
- 
- (Apague essa seção)
-
-# NomedoProjeto
-
-**Número da Lista**: X<br>
-**Conteúdo da Disciplina**: XXXXXXXXXX<br>
+**Número da Lista**: 5<br>
+**Conteúdo da Disciplina**: Dynamic Programming<br>
 
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 19/0044403  |  Victor Souza Dantas Martins Lima |
+| 19/0020903   |  Vitor Magalhães Lamego |
 
 ## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+O repositório consiste na solução de dois problemas presentes na plataforma do Code Forces utilizando o assunto da lista em questão.
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+<img src="/prints/Knapsack.png" alt="drawing" width="500"/>
+<img src="/prints/LIS.png" alt="drawing" width="500"/>
+<img src="/prints/Accepted.png" alt="drawing" width="500"/>
 
 ## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+**Linguagem**: C<br>
+Para rodar o algoritmo localmente é necessário possuir um compilador como o GCC instalado para que a aplicação seja executada. O código também pode ser copiado e colado em algum compilador online.
+
 
 ## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+```
+gcc Knapsack.cpp -o run
+./run
+```
 
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
+```
+gcc LIS.cpp -o run
+./run
+```
 
-
-
-
+Caso tenha algum problema para compilar, pode usar os arquivos "Knapsack_run" e "LIS_run" que foram adicionados ao repositório.
